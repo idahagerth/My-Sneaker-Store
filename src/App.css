@@ -1,0 +1,271 @@
+body {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+html {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+div {
+  background-color: #f1f1f1;
+}
+
+.text {
+  border: solid rgb(31, 30, 30);
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding: 1em;
+  background-color: #f1f1f1;
+  font-size: "Manrope", sans-serif;
+}
+
+.navHeader {
+  justify-content: center;
+  padding: 1em;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  font-size: "Manrope", sans-serif;
+}
+
+.navLinks {
+  display: flex;
+  padding-left: 5em;
+  background-color: #f1f1f1;
+  font-size: "Manrope", sans-serif;
+}
+
+.navItem {
+  padding: 1em;
+  background-color: #f1f1f1;
+  font-family: "Manrope", sans-serif;
+}
+a.bag {
+  display: flex;
+  justify-content: right;
+  padding-left: 380%;
+  font-weight: bold;
+  font-size: x-large;
+  background-color: #f1f1f1;
+  padding-top: 6%;
+}
+
+.code {
+  background-color: #003049;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  font-weight: none;
+  margin-bottom: -10px;
+  height: 20px;
+}
+.number {
+  font-size: small;
+  padding-top: 15%;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+figcaption {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.shoePic {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 100% 50%;
+}
+
+.shoeGrid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 88%;
+  background-color: #f1f1f1;
+}
+
+.mainGrid {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  background-color: #f1f1f1;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+}
+
+h1.title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: xx-large;
+  background-color: #f1f1f1;
+  font-style: italic;
+}
+
+.price {
+  display: block;
+  float: left;
+  padding-left: 10%;
+  font-size: medium;
+  font-family: "Manrope", sans-serif;
+}
+
+.cartButton {
+  float: right;
+  padding-right: 10%;
+  font-family: "Manrope", sans-serif;
+  font-weight: bolder;
+}
+
+.productsPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+}
+
+button {
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 100px;
+}
+
+.sideBar {
+  height: 500px;
+  width: 250px;
+  position: fixed;
+  top: 20%;
+  right: 10%;
+  background-color: #003049;
+  color: #ffff;
+  font-family: "Manrope", sans-serif;
+}
+.bigPic {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 100% 50%;
+}
+
+.shoeCart {
+  top: 20%;
+  left: 25%;
+  position: relative;
+  font-family: "Manrope", sans-serif;
+}
+
+button.radera {
+  background-color: #003049;
+  border: none;
+  color: #ffff;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  font-family: "Manrope", sans-serif;
+  font-size: large;
+}
+
+.titlePrice {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+
+.checkout {
+  background-color: #ffff;
+  color: black;
+  border: none;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: large;
+}
+
+.total {
+  border: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #003049;
+  font-size: x-large;
+}
+
+.shoeTitle {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.infoPic {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 100% 50%;
+  position: absolute;
+  top: 30%;
+  right: 100%;
+}
+
+.productSideBar {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 15%;
+  right: 0%;
+  background-color: #003049;
+  color: #ffff;
+  font-family: "Manrope", sans-serif;
+}
+
+.title1 {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 20%;
+  right: -2%;
+  background-color: #003049;
+  color: #ffff;
+  font-family: "Archivo Black", sans-serif;
+  font-size: xx-large;
+}
+
+.title2 {
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  top: 60%;
+  right: 0%;
+  font-family: "Manrope", sans-serif;
+  color: #ffff;
+}
+
+.title3 {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 55%;
+  right: -10%;
+  font-family: "Archivo Black", sans-serif;
+  font-size: large;
+}
+
+.title4 {
+  height: 5%;
+  width: 10%;
+  position: fixed;
+  top: 80%;
+  right: 14%;
+  background-color: #ffff;
+  font-family: "Manrope", sans-serif;
+  transform: translate(-50%, -50%);
+  color: black;
+  border: none;
+}
